@@ -8,3 +8,6 @@ function onBackspace(index,event){
 document.getElementsByClassName('code')[index-1].focus();
 	}
 }
+window.onload = function() {
+    document.getElementsByClassName('code')[0].focus();
+}
